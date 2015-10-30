@@ -1,0 +1,138 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientTesting", "ClientTesting\ClientTesting.csproj", "{AD36FC0F-93C1-45D7-9832-5816365BC32E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoDeploy.Application.Objects", "AutoDeploy.Application.Objects\AutoDeploy.Application.Objects.csproj", "{82DB0F81-12C3-41E8-B04C-A1B4E3AA2DAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoDeploy.Application.Engine", "AutoDeploy.Application.Engine\AutoDeploy.Application.Engine.csproj", "{2163EA14-30FA-4F3E-900B-61419CDE161F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoDeploy.Application.Utilities", "AutoDeploy.Application.Utilities\AutoDeploy.Application.Utilities.csproj", "{9029EE46-8A6D-48C4-8FB0-A15BC40F9BF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoDeploy.Agent", "AutoDeploy.Agent\AutoDeploy.Agent.csproj", "{9E0FEB3F-4CB2-4563-A7B9-F4EBEE44F3FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{6F4739B8-30AA-4588-9D59-C039BAC99FDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Agent", "Agent", "{ADEB9597-C565-453F-A6E2-48F05561FA05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoDeploy.Agent.Services", "AutoDeploy.Agent.Services\AutoDeploy.Agent.Services.csproj", "{EC47BDCE-9461-4C78-B92D-8BE486D86C49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoDeploy.Application.DataFileAccess", "AutoDeploy.Application.DataAccess\AutoDeploy.Application.DataFileAccess.csproj", "{907C3F39-8EEF-4E4F-A317-CE13B63E4045}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoDeploy.Application", "AutoDeploy.Application.WF\AutoDeploy.Application.csproj", "{520D1603-8360-470D-AA3F-036E494A34BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoDeploy.Agent.Utilities", "AutoDeploy.Agent.Utilities\AutoDeploy.Agent.Utilities.csproj", "{0ED58458-3049-4653-8A8E-0CAFD56D2420}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoDeploy.Agent.Objects", "AutoDeploy.Agent.Objects\AutoDeploy.Agent.Objects.csproj", "{E052AF36-07F8-4A7B-A7E8-097ADEDCE91B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoDeploy.Agent.BusinessLogic", "AutoDeploy.Agent.BusinessLogic\AutoDeploy.Agent.BusinessLogic.csproj", "{A319CA70-71D2-4937-8925-4E086CA8DBE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoDeploy.Agent.Contract", "AutoDeploy.Agent.Contract\AutoDeploy.Agent.Contract.csproj", "{C1615978-D1A5-4898-901C-76E9C49767B4}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://support-tools:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AutoDeploy.Agent.BusinessLogic\\AutoDeploy.Agent.BusinessLogic.csproj
+		SccProjectTopLevelParentUniqueName1 = AutoDeploy.sln
+		SccProjectName1 = AutoDeploy.Agent.BusinessLogic
+		SccLocalPath1 = AutoDeploy.Agent.BusinessLogic
+		SccProjectUniqueName2 = AutoDeploy.Agent.Contract\\AutoDeploy.Agent.Contract.csproj
+		SccProjectTopLevelParentUniqueName2 = AutoDeploy.sln
+		SccProjectName2 = AutoDeploy.Agent.Contract
+		SccLocalPath2 = AutoDeploy.Agent.Contract
+		SccProjectUniqueName3 = AutoDeploy.Agent.Objects\\AutoDeploy.Agent.Objects.csproj
+		SccProjectTopLevelParentUniqueName3 = AutoDeploy.sln
+		SccProjectName3 = AutoDeploy.Agent.Objects
+		SccLocalPath3 = AutoDeploy.Agent.Objects
+		SccProjectUniqueName4 = AutoDeploy.Agent.Services\\AutoDeploy.Agent.Services.csproj
+		SccProjectTopLevelParentUniqueName4 = AutoDeploy.sln
+		SccProjectName4 = AutoDeploy.Agent.Services
+		SccLocalPath4 = AutoDeploy.Agent.Services
+		SccProjectUniqueName5 = AutoDeploy.Agent.Utilities\\AutoDeploy.Agent.Utilities.csproj
+		SccProjectTopLevelParentUniqueName5 = AutoDeploy.sln
+		SccProjectName5 = AutoDeploy.Agent.Utilities
+		SccLocalPath5 = AutoDeploy.Agent.Utilities
+		SccProjectUniqueName6 = AutoDeploy.Agent\\AutoDeploy.Agent.csproj
+		SccProjectTopLevelParentUniqueName6 = AutoDeploy.sln
+		SccProjectName6 = AutoDeploy.Agent
+		SccLocalPath6 = AutoDeploy.Agent
+		SccProjectUniqueName7 = ClientTesting\\ClientTesting.csproj
+		SccProjectName7 = ClientTesting
+		SccLocalPath7 = ClientTesting
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD36FC0F-93C1-45D7-9832-5816365BC32E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD36FC0F-93C1-45D7-9832-5816365BC32E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD36FC0F-93C1-45D7-9832-5816365BC32E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD36FC0F-93C1-45D7-9832-5816365BC32E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82DB0F81-12C3-41E8-B04C-A1B4E3AA2DAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82DB0F81-12C3-41E8-B04C-A1B4E3AA2DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82DB0F81-12C3-41E8-B04C-A1B4E3AA2DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82DB0F81-12C3-41E8-B04C-A1B4E3AA2DAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2163EA14-30FA-4F3E-900B-61419CDE161F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2163EA14-30FA-4F3E-900B-61419CDE161F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2163EA14-30FA-4F3E-900B-61419CDE161F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2163EA14-30FA-4F3E-900B-61419CDE161F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9029EE46-8A6D-48C4-8FB0-A15BC40F9BF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9029EE46-8A6D-48C4-8FB0-A15BC40F9BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9029EE46-8A6D-48C4-8FB0-A15BC40F9BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9029EE46-8A6D-48C4-8FB0-A15BC40F9BF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E0FEB3F-4CB2-4563-A7B9-F4EBEE44F3FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E0FEB3F-4CB2-4563-A7B9-F4EBEE44F3FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E0FEB3F-4CB2-4563-A7B9-F4EBEE44F3FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E0FEB3F-4CB2-4563-A7B9-F4EBEE44F3FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC47BDCE-9461-4C78-B92D-8BE486D86C49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC47BDCE-9461-4C78-B92D-8BE486D86C49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC47BDCE-9461-4C78-B92D-8BE486D86C49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC47BDCE-9461-4C78-B92D-8BE486D86C49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{907C3F39-8EEF-4E4F-A317-CE13B63E4045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{907C3F39-8EEF-4E4F-A317-CE13B63E4045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{907C3F39-8EEF-4E4F-A317-CE13B63E4045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{907C3F39-8EEF-4E4F-A317-CE13B63E4045}.Release|Any CPU.Build.0 = Release|Any CPU
+		{520D1603-8360-470D-AA3F-036E494A34BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{520D1603-8360-470D-AA3F-036E494A34BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{520D1603-8360-470D-AA3F-036E494A34BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{520D1603-8360-470D-AA3F-036E494A34BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ED58458-3049-4653-8A8E-0CAFD56D2420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ED58458-3049-4653-8A8E-0CAFD56D2420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ED58458-3049-4653-8A8E-0CAFD56D2420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ED58458-3049-4653-8A8E-0CAFD56D2420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E052AF36-07F8-4A7B-A7E8-097ADEDCE91B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E052AF36-07F8-4A7B-A7E8-097ADEDCE91B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E052AF36-07F8-4A7B-A7E8-097ADEDCE91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E052AF36-07F8-4A7B-A7E8-097ADEDCE91B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A319CA70-71D2-4937-8925-4E086CA8DBE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A319CA70-71D2-4937-8925-4E086CA8DBE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A319CA70-71D2-4937-8925-4E086CA8DBE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A319CA70-71D2-4937-8925-4E086CA8DBE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1615978-D1A5-4898-901C-76E9C49767B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1615978-D1A5-4898-901C-76E9C49767B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1615978-D1A5-4898-901C-76E9C49767B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1615978-D1A5-4898-901C-76E9C49767B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2163EA14-30FA-4F3E-900B-61419CDE161F} = {6F4739B8-30AA-4588-9D59-C039BAC99FDA}
+		{9029EE46-8A6D-48C4-8FB0-A15BC40F9BF8} = {6F4739B8-30AA-4588-9D59-C039BAC99FDA}
+		{82DB0F81-12C3-41E8-B04C-A1B4E3AA2DAC} = {6F4739B8-30AA-4588-9D59-C039BAC99FDA}
+		{907C3F39-8EEF-4E4F-A317-CE13B63E4045} = {6F4739B8-30AA-4588-9D59-C039BAC99FDA}
+		{520D1603-8360-470D-AA3F-036E494A34BA} = {6F4739B8-30AA-4588-9D59-C039BAC99FDA}
+		{9E0FEB3F-4CB2-4563-A7B9-F4EBEE44F3FD} = {ADEB9597-C565-453F-A6E2-48F05561FA05}
+		{EC47BDCE-9461-4C78-B92D-8BE486D86C49} = {ADEB9597-C565-453F-A6E2-48F05561FA05}
+		{0ED58458-3049-4653-8A8E-0CAFD56D2420} = {ADEB9597-C565-453F-A6E2-48F05561FA05}
+		{E052AF36-07F8-4A7B-A7E8-097ADEDCE91B} = {ADEB9597-C565-453F-A6E2-48F05561FA05}
+		{A319CA70-71D2-4937-8925-4E086CA8DBE0} = {ADEB9597-C565-453F-A6E2-48F05561FA05}
+		{C1615978-D1A5-4898-901C-76E9C49767B4} = {ADEB9597-C565-453F-A6E2-48F05561FA05}
+	EndGlobalSection
+EndGlobal

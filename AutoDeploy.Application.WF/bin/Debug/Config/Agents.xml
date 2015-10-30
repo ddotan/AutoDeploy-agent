@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ArrayOfEndpointInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!--   <EndpointInfo>
+    <Name>Executor</Name>
+    <URI>http://192.168.44.52:3884</URI>
+  </EndpointInfo>   -->
+  <EndpointInfo>
+    <Name>LeverateQMonitoring</Name>
+    <URI>http://support-tools:8000/AutoDeployService</URI>
+  </EndpointInfo>
+</ArrayOfEndpointInfo>

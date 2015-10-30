@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<AppConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Executor</Name>
+  <ServiceName>123</ServiceName>
+  <InstallationPath>123</InstallationPath>
+  <ExeParams>123</ExeParams>
+  <RemotePath>123</RemotePath>
+  <RemotePathUserName>123</RemotePathUserName>
+  <RemotePathPassword>123</RemotePathPassword>
+</AppConfig>
