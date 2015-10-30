@@ -5,7 +5,7 @@
     <URI>http://192.168.44.52:3884</URI>
   </EndpointInfo>   -->
   <EndpointInfo>
-    <Name>LeverateQMonitoring</Name>
-    <URI>http://support-tools:8000/AutoDeployService</URI>
+    <Name></Name>
+    <URI>http://localhost:8000/AutoDeployService</URI>
   </EndpointInfo>
 </ArrayOfEndpointInfo>
